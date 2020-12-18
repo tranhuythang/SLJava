@@ -1,0 +1,90 @@
+package lesson4;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class L4P19nonAPLongIncrSubseq {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String input = "";
+		ArrayList<Integer> seq = new ArrayList<>();
+		while(true){
+			System.out.println("Enter a sequence of integer (seperate by SPACE) or 'Q' to quit: ");
+			input = scanner.nextLine().trim();
+			if(input.toLowerCase().equals("q"))
+				break;
+			if(!input.matches("\\d+(\\s\\d+)+")) {
+				System.out.println("Invalid Sequence");
+				continue;
+			}				
+			else {				
+				Pattern pattern = Pattern.compile("\\d+");
+				Matcher matcher = pattern.matcher(input);
+				while(matcher.find()) {					
+					seq.add(Integer.valueOf(matcher.group()));
+				}				
+			}
+			ArrayList<Object> list = longIncrSubseq(seq);
+			System.out.println("  Your entered sequence  " + seq + " has:");
+			System.out.println("      increasing subsequences: " + list.get(0));
+			System.out.println("      longest increasing subsequences:" + list.get(0));
+			
+		}
+		
+	}
+	
+	public static ArrayList<List<Integer>> increasingSubseq(List<Integer> sequence) {
+		ArrayList<List<Integer>> incrSubseqList = new ArrayList<>();
+		incrSubseqList.add(new ArrayList<Integer>());
+		incrSubseqList.get(0).add(sequence.get(0));
+		int j = 0;
+		for(int i = 1; i < sequence.size(); i++) {
+			if(sequence.get(i) < incrSubseqList.get(j).get(incrSubseqList.get(j).size()-1)) {
+				incrSubseqList.add(new ArrayList<Integer>());
+				incrSubseqList.get(++j).add(sequence.get(i));
+			}								
+			else
+				incrSubseqList.get(j).add(sequence.get(i));			
+		}
+		return incrSubseqList;
+	}
+	
+	public static ArrayList<Object> longIncrSubseq(List<Integer> sequence) {
+		ArrayList<List<Integer>> incrSubseqList = new ArrayList<>();
+		incrSubseqList.add(new ArrayList<Integer>());
+		incrSubseqList.get(0).add(sequence.get(0));
+		int j = 0;
+		for(int i = 1; i < sequence.size(); i++) {
+			if(sequence.get(i) < incrSubseqList.get(j).get(incrSubseqList.get(j).size()-1)) {
+				incrSubseqList.add(new ArrayList<Integer>());
+				incrSubseqList.get(++j).add(sequence.get(i));
+			}								
+			else
+				incrSubseqList.get(j).add(sequence.get(i));			
+		}
+		
+		Integer[] lengths = new Integer[incrSubseqList.size()];
+		for(int i=0; i < incrSubseqList.size(); i++)
+			lengths[i] = incrSubseqList.size();
+		int maxLength = Collections.max(Arrays.asList(lengths));
+		ArrayList<Integer> maxIndices = new ArrayList<>();
+		for(int i=0; i < lengths.length; i++)
+			if(lengths[i] == maxLength)
+				maxIndices.add(i);
+		ArrayList<List<Integer>> longIncrSubseqList = new ArrayList<>();
+		for(Integer i: maxIndices) {
+			longIncrSubseqList.add(incrSubseqList.get(i));
+		}
+		
+		ArrayList<Object> result = new ArrayList<>();
+		result.add(incrSubseqList);
+		result.add(longIncrSubseqList);
+		return result;
+	}
+}

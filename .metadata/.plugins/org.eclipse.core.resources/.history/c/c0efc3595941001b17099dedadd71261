@@ -1,0 +1,47 @@
+package lesson4;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class L4P19nonAPLongIncrSubseq {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String input = "";
+		ArrayList<Integer> seq = new ArrayList<>();
+		while(true){
+			System.out.println("Enter a sequence of integer (seperate by SPACE) or 'Q' to quit: ");
+			input = scanner.nextLine().trim();
+			if(input.toLowerCase().equals("q"))
+				break;
+			if(!input.matches("\\d+(\\s\\d+)+"))
+				System.out.println("Invalid Sequence");
+			else {				
+				Pattern pattern = Pattern.compile("\\d+");
+				Matcher matcher = pattern.matcher(input);
+				while(matcher.find()) {					
+					seq.add(Integer.valueOf(matcher.group()));
+				}				
+			}
+			System.out.println("Longest increasing subsequences:" + longestIncreasingSubseq(seq));
+		}
+		
+	}
+	
+	public static ArrayList<List<Integer>> longestIncreasingSubseq(List<Integer> sequence) {
+		ArrayList<List<Integer>> incrSubseqList = new ArrayList<>();
+		ArrayList<Integer> currentSubseq = new ArrayList<Integer>();
+		currentSubseq.add(sequence.get(0));
+		for(int i=0; i < currentSubseq.size(); i++) {
+			if(sequence.get(i) < currentSubseq.get(currentSubseq.size()-1)) {
+				System.out.println(currentSubseq);
+				incrSubseqList.add(currentSubseq);
+				currentSubseq.clear();
+			}
+			currentSubseq.add(sequence.get(i));
+		}
+		return incrSubseqList;
+	}
+}

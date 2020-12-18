@@ -1,0 +1,28 @@
+package lesson4;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class L4P19nonAPLongIncrSubseq {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String input = "";
+		while(true){
+			System.out.println("Enter a sequence of number (seperate by space) or 'Q' to quit: ");
+			input = scanner.nextLine().trim();
+			if(!input.matches("\\d+(\\s\\d)+"))
+				System.out.println("Invalid Sequence");
+			else {
+				ArrayList<Integer> seq = new ArrayList<>();
+				Pattern pattern = Pattern.compile("\\d+");
+				Matcher matcher = pattern.matcher(input);
+				while(matcher.find()) {
+					seq.add(Integer.valueOf(matcher.group()));
+				}
+				System.out.println(seq);
+			}
+		}		
+	}
+}
