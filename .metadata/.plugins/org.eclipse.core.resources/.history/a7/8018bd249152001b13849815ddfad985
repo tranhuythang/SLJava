@@ -1,0 +1,24 @@
+package lesson6;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+public class EntryMain {
+	public static void Main(String[] args) {
+		Calculator calc = new Calculator();
+		System.out.println("Addition: " + calc.Addition(100, 200));
+		System.out.println("Addition: " + calc.Substraction(100, 200));
+		System.out.println("Addition: " + calc.Multiplication(100, 200));
+		
+		Result result = JUnitCore.runClasses(Calculator.class);
+		System.out.println("Total number of tests: " + result.getRunCount());
+		System.out.println("Total number of tests failed: " + result.getFailureCount());
+		
+		for(Failure failure: result.getFailures()) {
+			System.out.println(failure.getMessage());
+		}
+		System.out.println(result.wasSuccessful());
+	}
+	
+}

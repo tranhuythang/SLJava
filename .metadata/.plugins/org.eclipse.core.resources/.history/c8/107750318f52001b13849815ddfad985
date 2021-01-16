@@ -1,0 +1,11 @@
+package lesson6;
+
+public class EntryMain {
+	public static void Main(String[] args) {
+		Calculator calc = new Calculator();
+		System.out.println("Addition: " + calc.Addition(100, 200));
+		System.out.println("Addition: " + calc.Substraction(100, 200));
+		System.out.println("Addition: " + calc.Multiplication(100, 200));
+	}
+	
+}

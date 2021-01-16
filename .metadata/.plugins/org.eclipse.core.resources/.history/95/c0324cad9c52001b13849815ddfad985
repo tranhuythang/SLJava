@@ -1,0 +1,13 @@
+package lesson6;
+
+import java.util.regex.Pattern;
+
+public class RegEx {
+	public static void main(String[] args) {
+		String st = "Hello, I am Alex, nice to meet you.";
+		Pattern pattern = Pattern.compile("Alex|John");
+		Matcher matcher = pattern.matcher(st);
+		System.out.println();
+	}
+
+}

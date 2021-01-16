@@ -1,0 +1,30 @@
+package lesson6;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class CalculatorTest {
+	Calculator calculate = new Calculator();
+
+	@Test
+	void testAddition() {
+		System.out.println("Starting Test: " + new Object() {}.getClass().getEnclosingMethod());
+		assertEquals(300, calculate.Addition(100, 200));
+		System.out.println("Ending Test: " + new Object() {}.getClass().getEnclosingMethod());
+	}
+	
+	@Test
+	void testSubstraction() {
+		System.out.println("Starting Test: " + new Object() {}.getClass().getEnclosingMethod());
+		assertEquals(-100, calculate.Addition(100, 200));
+		System.out.println("Ending Test: " + new Object() {}.getClass().getEnclosingMethod());
+	}
+	
+	@Test
+	void testMultiplication() {
+		System.out.println("Starting Test: " + new Object() {}.getClass().getEnclosingMethod());
+		assertEquals(100, calculate.Addition(100, 200));
+		System.out.println("Ending Test: " + new Object() {}.getClass().getEnclosingMethod());
+	}
+}

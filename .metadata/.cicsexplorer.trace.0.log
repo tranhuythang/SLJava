@@ -1,0 +1,225 @@
+com.ibm.cics.eclipse.common.runtime_3.0.0.202010142307
+2020/12/20 16:36:14.574 MST [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/D:/OneDrive%20-%20Georgia%20Institute%20of%20Technology/FullStackJava/SLJava/SL%20Eclipse%20ws/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2020/12/20 16:36:14.693 MST [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2020/12/20 16:36:14.693 MST [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2020/12/20 16:36:14.695 MST [1] > com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2020/12/20 16:36:14.695 MST [1] < com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2020/12/20 16:36:14.697 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.getCurrentTrustStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.getCurrentTrustStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2020/12/20 16:36:14.697 MST [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2020/12/20 16:36:14.698 MST [1] > com.ibm.cics.core.comm.ExplorerKeyStoreManager.validateTrustStoreDetail()
+2020/12/20 16:36:14.758 MST [1] < com.ibm.cics.core.comm.ExplorerKeyStoreManager.validateTrustStoreDetail() []
+2020/12/20 16:36:14.758 MST [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/D:/OneDrive%20-%20Georgia%20Institute%20of%20Technology/FullStackJava/SLJava/SL%20Eclipse%20ws/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2020/12/20 16:36:14.765 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2020/12/20 16:36:14.766 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [D:/OneDrive - Georgia Institute of Technology/FullStackJava/SLJava/SL Eclipse ws/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2020/12/20 16:36:14.772 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zos.comm.connection.ftp, handle id: 16072, namespace: com.ibm.cics.zos.comm.ftp]]
+2020/12/20 16:36:14.774 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS FTP, com.ibm.cics.zos.comm.connection.ftp]]
+2020/12/20 16:36:14.774 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.cics.zosmf.comm.connection, handle id: 16412, namespace: com.ibm.cics.zosmf.comm]]
+2020/12/20 16:36:14.774 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OSMF, com.ibm.cics.zosmf.comm.connection]]
+2020/12/20 16:36:14.774 MST [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [ConfigurationElementHandle [name: connection, id: com.ibm.ftt.cics.rse.RSE.connection, handle id: 16552, namespace: com.ibm.ftt.cics.rse]]
+2020/12/20 16:36:14.774 MST [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS Remote System, com.ibm.ftt.cics.rse.RSE.connection]]
+2020/12/20 16:36:14.775 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@63a7af06]
+2020/12/20 16:36:14.776 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5f01fb5c]
+2020/12/20 16:36:14.776 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5f01fb5c]
+2020/12/20 16:36:14.776 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5f01fb5c]]
+2020/12/20 16:36:14.776 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2020/12/20 16:36:14.776 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@75c77add]
+2020/12/20 16:36:14.777 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@3f87780b]
+2020/12/20 16:36:14.777 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5f01fb5c com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.777 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.777 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2020/12/20 16:36:14.778 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@591a4d25]
+2020/12/20 16:36:14.778 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.778 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2020/12/20 16:36:14.778 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2020/12/20 16:36:14.779 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2020/12/20 16:36:14.779 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2020/12/20 16:36:14.779 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@40ab]
+2020/12/20 16:36:14.779 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [ConfigurationElementHandle [name: connectionProvider, handle id: 16556, namespace: com.ibm.ftt.cics.rse]]
+2020/12/20 16:36:14.779 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [ConfigurationElementHandle [name: connectionProvider, handle id: 16556, namespace: com.ibm.ftt.cics.rse]]
+2020/12/20 16:36:14.898 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@77e6053]
+2020/12/20 16:36:14.898 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7097d921]
+2020/12/20 16:36:14.898 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7097d921]
+2020/12/20 16:36:14.898 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7097d921]]
+2020/12/20 16:36:14.898 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2020/12/20 16:36:14.898 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@2a21cbe7]
+2020/12/20 16:36:14.901 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@38caad07]
+2020/12/20 16:36:14.901 MST [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7097d921 com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2020/12/20 16:36:14.901 MST [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@15d0b458]
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2020/12/20 16:36:14.901 MST [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@77e6053 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2020/12/20 16:36:14.901 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2020/12/20 16:36:14.942 MST [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2020/12/20 16:36:14.942 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@361fa478]
+2020/12/20 16:36:14.943 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@361fa478]]
+2020/12/20 16:36:14.943 MST [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [D:/OneDrive - Georgia Institute of Technology/FullStackJava/SLJava/SL Eclipse ws/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$1@18b30951]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$1@18b30951]]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@48f4264e]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@48f4264e]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@5f01fb5c, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@48f4264e]]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@2697c156]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@2697c156]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7097d921, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@2697c156]]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@533d7c61]
+2020/12/20 16:36:14.946 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@533d7c61]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$2@533d7c61]]
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2020/12/20 16:36:14.946 MST [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@53c40ed6]
+2020/12/20 16:36:14.949 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionService$1@2ae5580]
+2020/12/20 16:36:14.950 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@2ae5580]]
+2020/12/20 16:36:14.951 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@1736273c]
+2020/12/20 16:36:14.951 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@1736273c]]
+2020/12/20 16:36:14.958 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionService$2@62c46e53]
+2020/12/20 16:36:14.958 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@2ae5580, com.ibm.cics.core.connections.internal.ConnectionService$2@62c46e53]]
+2020/12/20 16:36:14.959 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@55317c63]
+2020/12/20 16:36:14.959 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@55317c63]]
+2020/12/20 16:36:14.961 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$2@6ec2d990]
+2020/12/20 16:36:14.961 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@55317c63, com.ibm.cics.core.connections.ConnectionWidgetManager$2@6ec2d990]]
+2020/12/20 16:36:14.961 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$1@1cfa7ee0]
+2020/12/20 16:36:14.961 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@2ae5580, com.ibm.cics.core.connections.internal.ConnectionService$2@62c46e53, com.ibm.cics.core.connections.ConnectionWidgetManager$1@1cfa7ee0]]
+2020/12/20 16:36:14.962 MST [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2020/12/20 16:36:14.962 MST [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2020/12/20 16:36:23.697 MST [53] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@2cd7909c]
+2020/12/20 16:36:23.698 MST [53] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2020/12/20 16:36:23.796 MST [53] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@7a556166]
+2020/12/20 16:36:25.339 MST [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@2c952e6, org.eclipse.ui.internal.WorkbenchWindow@6c1a6db1]
+2020/12/20 16:36:25.340 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@57eb4b8b]
+2020/12/20 16:36:25.340 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@55317c63, com.ibm.cics.core.connections.ConnectionWidgetManager$2@6ec2d990, com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@57eb4b8b]]
+2020/12/20 16:36:25.343 MST [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2020/12/20 16:36:25.343 MST [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2020/12/20 16:36:25.343 MST [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2020/12/20 16:36:25.343 MST [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@3593a38d]
+2020/12/20 16:36:25.343 MST [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@55317c63, com.ibm.cics.core.connections.ConnectionWidgetManager$2@6ec2d990, com.ibm.cics.core.connections.internal.ConnectionsStartup$1$1@57eb4b8b, com.ibm.cics.zos.ui.ZOSConnectionContextManager$1@3593a38d]]
+2020/12/20 16:36:25.936 MST [1] > com.ibm.cics.zos.ui.ZOSUIPreferenceInitializer.initializeDefaultPreferences() [com.ibm.cics.zos.ui.ZOSUIPreferenceInitializer@29701f1f]
+2020/12/20 16:36:25.937 MST [1] < com.ibm.cics.zos.ui.ZOSUIPreferenceInitializer.initializeDefaultPreferences() [com.ibm.cics.zos.ui.ZOSUIPreferenceInitializer@29701f1f]
+2020/12/20 16:37:47.897 MST [74] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.]
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:770)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:275)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:278)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:467)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:781)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Phase 1/bin/lesson4'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1783)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:757)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:275)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:278)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:467)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:781)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: D:\OneDrive - Georgia Institute of Technology\FullStackJava\SLJava\SL Eclipse ws\Phase 1\bin\lesson4.
+java.nio.file.FileSystemException: D:\OneDrive - Georgia Institute of Technology\FullStackJava\SLJava\SL Eclipse ws\Phase 1\bin\lesson4: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:223)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:140)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1783)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:757)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:275)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:278)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:467)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:781)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
